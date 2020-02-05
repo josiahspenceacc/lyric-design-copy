@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lyric | Style</title>
+  
+  <!--  Styles  -->
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+	<header class="site-header">
+		
+		<div class="logo">Lyric</div>
+		
+		<nav class="nav-primary">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="style.html" class="current-page">Style</a></li>
+				<li><a href="components.html">Components</a></li>
+			</ul>			
+		</nav>
+		
+	</header>
+	
+	<main>
+		
+		<div class="main-intro">
+			<h1>Lyric Style</h1>
+
+			<p class="tagline">Meter &amp; Rhyme.</p>
+		</div>
+			
+		<nav class="nav-secondary toc-nav">
+			
+			<div>  <!--Necessary for sticky positioning technique-->
+			
+				<h4>On This Page</h4>
+
+				<ul>
+					<li><a href="#colors">Colors</a>
+						<ul>
+							<li><a href="#blue">Blue</a></li>
+							<li><a href="#yellow">Yellow</a></li>
+							<li><a href="#grey">Grey</a></li>
+						</ul>
+					</li>
+					<li><a href="#typography">Typography</a>
+						<ul>
+							<li><a href="#headings">Headings</a></li>
+							<li><a href="#body-copy">Body Copy</a></li>
+							<li><a href="#block-quotes">Block Quotes</a></li>
+						</ul>
+					</li>
+				</ul>
+				
+			</div>
+				
+		</nav>
+		
+		<div class="main-content">
+		
+			<h2 id="colors">Colors</h2>
+			
+			<h3 id="blue">Blue</h3>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-blue)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Blue</text>
+				<text x="70" y="190" text-anchor="middle">#364b82</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-blue-dark)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Blue Dark</text>
+				<text x="70" y="190" text-anchor="middle">#15263c</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-blue-light)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Blue Light</text>
+				<text x="70" y="190" text-anchor="middle">#6676b2</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-blue-lighter)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Blue Lighter</text>
+				<text x="70" y="190" text-anchor="middle">#e1e4ec</text>
+			</svg>
+			
+			<h3 id="yellow">Yellow</h3>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-yellow)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Yellow</text>
+				<text x="70" y="190" text-anchor="middle">#f2d653</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-yellow-dark)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Yellow Dark</text>
+				<text x="70" y="190" text-anchor="middle">#bca51d</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-yellow-light)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Yellow Light</text>
+				<text x="70" y="190" text-anchor="middle">#ffff85</text>
+			</svg>
+			
+			<h3 id="grey">Grey</h3>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-text)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Text</text>
+				<text x="70" y="190" text-anchor="middle">#2e2d2d</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-text-light)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Text Light</text>
+				<text x="70" y="190" text-anchor="middle">#a1a9ab</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-text-lighter)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Text Lighter</text>
+				<text x="70" y="190" text-anchor="middle">#ddd</text>
+			</svg>
+			
+			<h3 id="state-colors">State Colors</h3>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-error)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Error</text>
+				<text x="70" y="190" text-anchor="middle">#c64f3d</text>
+			</svg>
+
+			<svg class="example-swatch" viewBox="0 0 140 210" preserveAspectRatio="xMidYMid meet">
+				<circle cx="70" cy="70" r="70" fill="var(--color-success)" />
+				<text x="70" y="166" font-weight="bold" text-anchor="middle">Success</text>
+				<text x="70" y="190" text-anchor="middle">#3dc67a</text>
+			</svg>
+
+			<h2 id="typography">Typography</h2>
+			
+			<h4>Primary Typeface</h4>
+			
+			<figure>
+				<p>EB Garamond, Georgia, serif; </p>
+			</figure>
+			
+			<h4>Secondary Typeface</h4>
+			
+			<figure>
+				<p class="example-typeface-secondary">Roboto, Verdana, sans-serif; </p>
+			</figure>
+			
+			<h4>Modular Scale</h4>
+			
+			<p><strong>1.5</strong>&mdash;Perfect Fifth</p>
+			
+			<h3 id="headings">Headings</h3>
+			
+			<figure>
+				<h1>Heading 1</h1>
+				<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+				<h4>Heading 4</h4>
+				<h5>Heading 5</h5>
+				<h6>Heading 6</h6>
+			</figure>
+			
+			<h3 id="body-copy">Body Copy</h3>
+			
+			<h4>Featured Text</h4>
+			
+			<figure>
+				<p class="featured-text">Beethoven tells you what it's like to be Beethoven and Mozart tells you what it's like to be human. Bach tells you what it's like to be the universe.</p>
+			</figure>
+			
+			<h4>Paragraph</h4>
+			
+			<figure>
+				<p>The human attitude of which <strong>classical music</strong> is the expression is always the same; it is always based on the same kind of insight into <em>life</em> and strives for the same kind of <a href="http://google.com">victory</a> over blind chance. Classical music as gesture signifies knowledge of the tragedy of the human condition, affirmation of human destiny, courage, cheerful serenity.</p>
+			</figure>
+			
+			<h4>Lists</h4>
+			
+			<figure>
+				<ul>
+					<li>J.S. Bach</li>
+					<li>Mozart</li>
+					<li>Beethoven
+						<ul>
+							<li>Moonlight Sonata</li>
+							<li>Ode to Joy</li>
+							<li>The Creatures of Prometheus</li>
+						</ul>
+					</li>
+					<li>Stravinski</li>
+				</ul>
+				
+				<ol>
+					<li>Overture</li>
+					<li>Scherzo</li>
+					<li>Andante
+						<ol>
+							<li>Exposition</li>
+							<li>Development</li>
+							<li>Recapitulation</li>
+						</ol>
+					</li>
+					<li>Allegro</li>
+				</ol>
+			</figure>
+			
+			<h4>Meta Copy</h4>
+			
+			<figure>
+				<p class="meta-copy">"Bolero" by Maurice Ravel, as performed by the London Symphony Orchestra</p>
+			</figure>
+			
+			<h3 id="block-quotes">Block Quotes</h3>
+			
+			<figure>
+				<blockquote>
+					<p>Openings and closings, beginnings and endings. Everything in between passes as quickly as the blink of an eye. An eternity precedes the opening and another, if not the same, follows the closing. Somehow everything that lies in between seems for a moment more vivid.</p>
+					<cite>Philip Glass</cite>
+				</blockquote>
+			</figure>
+			
+		</div>
+		
+	</main>
+ 
+<footer class="site-footer">
+		
+		<div>
+		
+			<p><strong>Lyric Design System</strong> created by Josiah Spence.</p>
+
+			<small>© 2018 Josiah Spence</small>
+		
+		</div>
+			
+		<p><strong>Josiah Spence</strong> is a designer, developer, and educator in the great ATX. He cares deeply about all the little details.</p>
+		
+		<nav class="nav-secondary">
+			<ul>
+				<li><a href="https://josiahspence.com">Personal Website</a></li>
+				<li><a href="https://codepen.io/JosiahACC">Codepen</a></li>
+				<li><a href="https://github.com/spencejs">Github</a></li>
+			</ul>
+		</nav>
+		
+	</footer>
+	
+</body>
+</html>

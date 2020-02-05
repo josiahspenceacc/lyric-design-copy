@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lyric | Components, Yo</title>
+  
+  <!--  Styles  -->
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+	<header class="site-header">
+		
+		<div class="logo">Lyric</div>
+		
+		<nav class="nav-primary">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="style.html">Style</a></li>
+				<li><a href="components.html" class="current-page">Components</a></li>
+			</ul>			
+		</nav>
+		
+	</header>
+	
+	<main>
+		
+		<div class="main-intro">
+			<h1>Lyric Components</h1>
+
+			<p class="tagline">Establishing the Motifs.</p>
+		</div>
+			
+		<nav class="nav-secondary toc-nav">
+			
+			<div> <!--Necessary for sticky positioning technique-->
+			
+				<h4>On This Page</h4>
+
+				<ul>
+					<li><a href="#button-links">Button Links</a>
+						<ul>
+							<li><a href="#hero-button">Hero Button</a></li>
+							<li><a href="#normal-button">Normal Button</a></li>
+							<li><a href="#ghost-button">Accordions</a></li>
+						</ul>
+					</li>
+					<li><a href="#accordions">Accordions</a></li>
+					<li><a href="#modal-dialogs">Modal Dialogs</a></li>
+					<li><a href="#form-elements">Form Elements</a>
+						<ul>
+							<li><a href="#text-input">Text Input</a></li>
+							<li><a href="#text-area">Text Area</a></li>
+							<li><a href="#select">Select</a></li>
+							<li><a href="#buttons">Buttons</a></li>
+						</ul>
+					</li>
+					<li><a href="#navigation">Navigation</a>
+						<ul>
+							<li><a href="#primary-navigation">Primary Nav</a></li>
+							<li><a href="#secondary-navigation">Secondary Nav</a></li>
+						</ul>
+					</li>
+					<li><a href="#notifications">Notifications</a>
+					<li><a href="#hero-block">Hero Block</a>
+					<li><a href="#cards">Information Cards</a>
+				</ul>
+				
+			</div>
+				
+		</nav>
+		
+		<div class="main-content">
+		
+			<h2 id="button-links">Button Links</h2>
+			
+			<h3 id="hero-button">Hero Button</h3>
+			
+			<figure class="button-examples">
+			
+				<a href="" class="button button-hero">Default</a>
+			
+				<a href="" class="button button-hero hover">Hover</a>
+			
+				<a href="" class="button button-hero focus">Focus</a>
+			
+				<a href="" class="button button-hero active">Active</a>
+				
+			</figure>
+			
+			<h3 id="normal-button">Normal Button</h3>
+			
+			<figure class="button-examples">
+			
+				<a href="" class="button">Default</a>
+			
+				<a href="" class="button hover">Hover</a>
+			
+				<a href="" class="button focus">Focus</a>
+			
+				<a href="" class="button active">Active</a>
+				
+			</figure>
+			
+			<h3 id="ghost-button">Ghost Button</h3>
+			
+			<figure class="button-examples">
+			
+				<a href="" class="button button-ghost">Default</a>
+			
+				<a href="" class="button button-ghost hover">Hover</a>
+			
+				<a href="" class="button button-ghost focus">Focus</a>
+			
+				<a href="" class="button button-ghost active">Active</a>
+				
+			</figure>
+			
+			<h2 id="accordions">Accordions</h2>
+			
+			<figure>
+				
+				<details>
+					
+					<summary>Maurice Ravel</summary>
+					
+					<div>
+						<p><strong>Joseph Maurice Ravel</strong> (7 March 1875 – 28 December 1937) was a French composer, pianist and conductor. He is often associated with impressionism along with his elder contemporary Claude Debussy, although both composers rejected the term. In the 1920s and 1930s Ravel was internationally regarded as France's greatest living composer.</p>
+					</div>
+					
+				</details>
+				
+				<details>
+					
+					<summary>Igor Stravinsky</summary>
+					
+					<div>
+						<p><strong>Igor Fyodorovich Stravinsky</strong> (17 June [O.S. 5 June] 1882 – 6 April 1971) was a Russian-born composer, pianist, and conductor. He is widely considered one of the most important and influential composers of the 20th century.</p>
+
+						<p>Stravinsky's compositional career was notable for its stylistic diversity. He first achieved international fame with three ballets commissioned by the impresario Serge Diaghilev and first performed in Paris by Diaghilev's Ballets Russes: The Firebird (1910), Petrushka (1911), and The Rite of Spring (1913).</p>
+					</div>
+					
+				</details>
+				
+				<details>
+					
+					<summary>Gustav Holst</summary>
+					
+					<div>
+						<p><strong>Gustav Theodore Holst</strong> (21 September 1874 – 25 May 1934) was an English composer, arranger and teacher. Best known for his orchestral suite The Planets, he composed a large number of other works across a range of genres, although none achieved comparable success. His distinctive compositional style was the product of many influences, Richard Wagner and Richard Strauss being most crucial early in his development. The subsequent inspiration of the English folksong revival of the early 20th century, and the example of such rising modern composers as Maurice Ravel, led Holst to develop and refine an individual style.</p>
+					</div>
+					
+				</details>
+				
+			</figure>
+			
+			<h2 id="modal-dialogs">Modal Dialogs</h2>
+			
+			<figure>
+				
+				<button id="open-modal" type="button">Open Modal</button>
+				
+				<dialog id="dialog">
+					
+					<h4>Suite bergamasque</h4>
+					
+					<p>The Suite bergamasque is one of the most famous piano suites by Claude Debussy. It was first composed by Debussy around 1890, at the age of 28, but was significantly revised just before its publication in 1905.The composer was loath to publish these relatively early piano compositions because they were not in his mature style, but in 1905 accepted the offer of a publisher who thought they would be successful given the fame Debussy had won in the intervening fifteen years.</p>
+					
+				</dialog>
+				
+			</figure>
+			
+			<h2 id="form-elements">Form Elements</h2>
+			
+			<h3 id="text-input">Text Input</h3>
+			
+			<figure>
+				
+				<label for="text-input">Normal</label>
+				<small>This is some descriptive text.</small>
+				<input name="text-input" type="text" placeholder="Some Text">
+				
+				
+				<label for="text-input">Focus</label>
+				<input name="text-input" type="text" placeholder="Some Text" class="focus">
+				
+				
+				<label for="text-input">Disabled</label>
+				<input name="text-input" type="text" placeholder="Some Text" disabled>
+				
+				
+				<label for="text-input">Error</label>
+				<small class="error-text">This is some error text.</small>
+				<input name="text-input" type="text" placeholder="Some Text" class="error-input">
+				
+			</figure>
+			
+			<h3 id="text-area">Text Area</h3>
+			
+			<figure>
+				
+				<label for="textarea">Normal</label>
+				<textarea name="textarea" placeholder="Some Text"></textarea>
+			
+				<label for="textarea">Focus</label>
+				<textarea name="textarea" class="focus" placeholder="Some Text"></textarea>
+				
+				<label for="textarea">Disabled</label>
+				<textarea name="textarea" disabled placeholder="Some Text"></textarea>
+				
+				<label for="textarea">Error</label>
+				<small class="error-text">This is some error text.</small>
+				<textarea name="textarea" class="error-input" placeholder="Some Text"></textarea>
+			
+			</figure>
+			
+			<h3 id="select">Select</h3>
+			
+			<figure>
+				
+				<label for="select">Normal</label>
+				<select name="select">
+					<option value="" selected disabled hidden>String Sections</option>
+					<option>Violins</option>
+					<option>Violas</option>
+					<option>Cellos</option>
+					<option>Contrabasses</option>
+				</select>
+				
+				<label for="select">Focus</label>
+				<select name="select" class="focus">
+					<option value="" selected disabled hidden>String Sections</option>
+					<option>Violins</option>
+					<option>Violas</option>
+					<option>Cellos</option>
+					<option>Contrabasses</option>
+				</select>
+				
+				<label for="select">Disabled</label>
+				<select name="select" disabled>
+					<option value="" selected disabled hidden>String Sections</option>
+					<option>Violins</option>
+					<option>Violas</option>
+					<option>Cellos</option>
+					<option>Contrabasses</option>
+				</select>
+				
+				<label for="select">Error</label>
+				<small class="error-text">This is some error text.</small>
+				<select name="select" class="error-input">
+					<option value="" selected disabled hidden>String Sections</option>
+					<option>Violins</option>
+					<option>Violas</option>
+					<option>Cellos</option>
+					<option>Contrabasses</option>
+				</select>
+				
+			</figure>
+			
+			<h3 id="buttons">Buttons</h3>
+			
+			<figure class="form-button-examples">
+				<button>Normal</button>
+				
+				<button class="hover">Hover</button>
+				
+				<button class="focus">Focus</button>
+				
+				<button class="active">Active</button>
+				
+			</figure>
+			
+			<h2 id="navigation">Navigation</h2>
+			
+			<h3 id="primary-navigation">Primary Navigation</h3>
+			
+			<figure>
+				<nav class="nav-primary">
+					<ul>
+						<li><a href="" class="current-page">Orchestra</a></li>
+						<li><a href="">Quintet</a></li>
+						<li><a href="">Chamber Ensemble</a></li>
+					</ul>			
+				</nav>
+			</figure>
+			
+			<h3 id="secondary-navigation">Secondary Nav</h3>
+			
+			<figure>
+				<nav class="nav-secondary">
+
+					<h4>Optional Nav Heading</h4>
+
+					<ul>
+						<li><a href="">Woodwinds</a>
+							<ul>
+								<li><a href="">Flute</a></li>
+								<li><a href="">Clarinet</a></li>
+								<li><a href="" class="current-item">Oboe</a></li>
+							</ul>
+						</li>
+						<li><a href="">Brass</a>
+							<ul>
+								<li><a href="">Trumpet</a></li>
+								<li><a href="">Trombone</a></li>
+								<li><a href="">Tuba</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</figure>
+			
+			<h2 id="notifications">Notifications</h2>
+			
+			<figure>
+				
+				<div class="notification notification-error">
+					
+					<svg class="icon-notification" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<circle cx="12" cy="12" r="10"></circle>
+						<line x1="12" y1="8" x2="12" y2="12"></line>
+						<line x1="12" y1="16" x2="12" y2="16"></line>
+						
+					</svg>
+					
+					<span>Your instrument is way out of tune!</span>
+					
+					<span class="notification-close">✕</span>
+					
+				</div>
+				
+				<div class="notification notification-warning">
+					
+					<svg class="icon-notification" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+						
+					</svg>
+					
+					<span>Check your tempo. You're rushing the ostinato.</span>
+					
+					<span class="notification-close">✕</span>
+					
+				</div>
+				
+				<div class="notification">
+					
+					<svg class="icon-notification" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+						<line x1="7" y1="7" x2="7" y2="7"></line>
+						
+					</svg>
+					
+					<span>Play it again, Sam.</span>
+					
+					<span class="notification-close">✕</span>
+					
+				</div>
+				
+				<div class="notification notification-success">
+					
+					<svg class="icon-notification" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+						
+					</svg>
+					
+					<span>Flawless technique! What a virtuoso.</span>
+					
+					<span class="notification-close">✕</span>
+					
+				</div>
+				
+			</figure>
+			
+			<h2 id="hero-block">Hero Block</h2>
+			
+			<figure>
+				<a href="hero-block.html" title="Hero Block Page"><img src="images/hero-screenshot.jpg" alt="Hero Block Screenshot" class="example-screenshot"></a>
+			</figure>
+			
+			<h2 id="cards">Information Cards</h2>
+
+			<h3>Article / Post Card</h3>
+			
+			<p>This type of card should always be used on a white background, and always outside of the main container.</p>
+			
+			<figure class="post-card-example">
+				
+				<a href="" class="post-card">
+					
+					<h6>The Stratavarius Story</h6>
+					
+					<time datetime="2018-07-07">July 7, 2018</time>
+					
+					<img src="images/strativarius.jpg" alt="Stritvarius Gould Violin">
+					
+					<p>Stradivari probably developed his own style slowly. Some of his early violins were smaller, with notable exception to this is the 1697 Hellier violin, which had much larger proportions.</p>
+					
+				</a>
+				
+			</figure>
+
+			<h3>Profile Card</h3>
+			
+			<figure class="profile-card-example">
+				
+				<section class="profile-card">
+					
+					<img src="images/mozart.jpg" alt="Wolfgang Amadeus Mozart">
+					
+					<h6>Wolfgang Amadeus Mozart</h6>
+					
+					<p class="meta-copy"><a href="mailto:mozart@composers.com">mozart@composers.com</a></p>
+					
+					<p class="meta-copy"><a href="tel:1-234-567-8910">1-234-567-8910</a></p>
+					
+				</section>
+				
+			</figure>
+
+			<h3>Call to Action Card</h3>
+			
+			<p>This type of card should always be used on a yellow background, and always outside of the main container.</p>
+			
+			<figure class="cta-card-example">
+				
+				<section class="cta-card">
+					
+					<h6>Audition Today</h6>
+					
+					<svg class="cta-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+						<path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+						<line x1="12" y1="19" x2="12" y2="23"></line>
+						<line x1="8" y1="23" x2="16" y2="23"></line>
+					</svg>
+					
+					<p class="meta-copy">To be a successful and happy classical musician, you have to love the process of making music itself.</p>
+					
+					<a href="" class="button">Apply Now</a>
+					
+				</section>
+				
+			</figure>
+			
+		</div>
+		
+	</main>
+ 
+	<footer class="site-footer">
+		
+		<div>
+		
+			<p><strong>Lyric Design System</strong> created by Josiah Spence.</p>
+
+			<small>© 2018 Josiah Spence</small>
+		
+		</div>
+			
+		<p><strong>Josiah Spence</strong> is a designer, developer, and educator in the great ATX. He cares deeply about all the little details.</p>
+		
+		<nav class="nav-secondary">
+			<ul>
+				<li><a href="https://josiahspence.com">Personal Website</a></li>
+				<li><a href="https://codepen.io/JosiahACC">Codepen</a></li>
+				<li><a href="https://github.com/spencejs">Github</a></li>
+			</ul>
+		</nav>
+		
+	</footer>
+	
+	<script>
+	document.addEventListener('DOMContentLoaded', function(){
+
+		const modal = document.querySelector('dialog');
+		const open = document.getElementById('open-modal');
+
+		open.addEventListener('click', () => {
+			modal.showModal();
+		});
+
+		modal.addEventListener('click', event => {
+			if (event.target === modal) {
+				modal.close('cancelled');
+			}
+		});
+
+	});
+	</script>
+
+	
+</body>
+</html>
